@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7eef2;
+
+}
+.topbar {
+    background: rgb(81, 24, 65);
+    color: #f1eaf0;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #a55e9d;
+    padding: 10px 20px;
+}
+nav h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(81, 209, 17);
+    font-variant: normal;
+    font-style: oblique;
+    font-feature-settings: "aalt";
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+nav ul li {
+    cursor: pointer;
+
+}
+.hero {
+    background-image:url(Banner.jpg) ;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero button {
+    background: #ff3333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: #fff5ff;
+}
+.about {
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+    gap: 20px;
+}
+.about img {
+    width: 250px;
+    border-radius: 10px;
+
+}
+.services {
+    text-align: center;
+    padding: 40px 20px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+
+}.card img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+footer {
+    background: #ff3333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
